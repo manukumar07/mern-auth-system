@@ -31,9 +31,9 @@
 
 | Layer     | Tech                                      |
 |-----------|-------------------------------------------|
-| Frontend  | React, Tailwind CSS, Axios, Formik, Yup   |
+| Frontend  | React, Tailwind CSS, Axios, Formik, joi   |
 | Backend   | Node.js, Express.js, MongoDB, Mongoose    |
-| Auth      | JWT, bcrypt, Google OAuth, nodemailer     |
+| Auth      | JWT, bcrypt, Google OAuth, passportjs, nodemailer     |
 | Security  | Helmet, cors, express-rate-limit, xss-clean, mongo-sanitize |
 
 ---

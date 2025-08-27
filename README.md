@@ -44,6 +44,23 @@ We use **SendGrid** for transactional emails (signup confirmation, password rese
 
 ---
 
+## **📸 UI Preview**  
+
+<img width="1920" height="901" alt="screencapture-localhost-5173-2025-08-27-22_55_30" src="https://github.com/user-attachments/assets/7eceb69c-1e89-43a6-b744-7dfd7f0ac09e" />
+
+## Login page 
+<img width="1920" height="1108" alt="screencapture-localhost-5173-login-2025-08-27-22_55_48" src="https://github.com/user-attachments/assets/a93b99d0-da27-46f4-a123-50fb7c67bdc4" />
+
+## Signup page
+<img width="1920" height="1145" alt="screencapture-localhost-5173-signup-2025-08-27-22_55_57" src="https://github.com/user-attachments/assets/31768934-5c07-4b52-a031-283f1c2e8110" />
+
+## Reset password page
+<img width="1920" height="1069" alt="screencapture-localhost-5173-forgot-password-2025-08-27-22_56_17" src="https://github.com/user-attachments/assets/4382c85d-7792-409e-94bc-29624f250ef2" />
+
+
+---  
+
+
 ## ⚙️ Installation
 
 ```bash
@@ -70,3 +87,8 @@ npm run dev
 cd client
 npm run dev
 ```
+
+## **📩 Contributing**  
+🙌 Contributions are welcome! Feel free to fork the repo and submit a pull request.  
+
+>  **Built with ❤️ by [Manu Kumar Pal](https://github.com/manukumar07)**  

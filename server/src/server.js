@@ -46,6 +46,11 @@ app.use(express.urlencoded({ extended: true }));
 // ⏱ Rate limiter to prevent abuse (e.g., DDOS/brute-force)
 app.use(limiter);
 
+// to get 
+app.get("/", (req, res) => {
+    res.send("Backend is working ✅");
+});
+
 // 🛣 Routes
 app.use("/api/v1/auth", authRoutes);
 

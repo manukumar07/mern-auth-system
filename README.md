@@ -31,11 +31,42 @@
 
 | Layer     | Tech                                      |
 |-----------|-------------------------------------------|
-| Frontend  | React, Tailwind CSS, Axios, Formik, Yup   |
+| Frontend  | React, Tailwind CSS, Axios, Formik, joi   |
 | Backend   | Node.js, Express.js, MongoDB, Mongoose    |
-| Auth      | JWT, bcrypt, Google OAuth, nodemailer     |
+| Auth      | JWT, bcrypt, Google OAuth, passportjs, nodemailer , **SendGrid**    |
 | Security  | Helmet, cors, express-rate-limit, xss-clean, mongo-sanitize |
 
 ---
 
+## 📧 Email Integration (SendGrid)
 
+We use **SendGrid** for transactional emails (signup confirmation, password reset, notifications).
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/manukumar07/mern-auth-system.git
+
+# Move into the project directory
+cd mern-auth-system
+
+# Install dependencies
+npm install
+
+````
+
+## ▶️ Running the Project
+
+### server
+```bash
+cd server
+npm run dev
+````
+### client
+```bash
+cd client
+npm run dev
+```

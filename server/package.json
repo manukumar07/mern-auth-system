@@ -1,12 +1,50 @@
 {
-  "name": "server",
+  "name": "mern-auth-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "MERN authentication system with JWT, Google OAuth, Admin/User roles, and secure practices",
+  "main": "src/server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "client": "npm start --prefix client",
+    "server": "nodemon src/server.js",
+    "dev:all": "concurrently \"npm run server\" \"npm run client\""
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "auth",
+    "jwt",
+    "oauth",
+    "passport",
+    "react",
+    "axios",
+    "mern",
+    "backend",
+    "frontend"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^4.2.0",
+    "mongoose": "^8.17.2",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
 }

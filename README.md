@@ -65,7 +65,7 @@ We use **SendGrid** for transactional emails (signup confirmation, password rese
 
 ```bash
 # Clone the repository
-git clone https://github.com/manukumar07/mern-auth-system.git
+git clone https://github.com/manukumar7/mern-auth-system.git
 
 # Move into the project directory
 cd mern-auth-system
